@@ -1,0 +1,196 @@
+/* WILL SHOW UP REGARDLESS WHAT VIEW */
+
+/* Logo */
+.logo-size {
+    width: 70px;
+}
+
+/* Navigation links */
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #7CFFC2;
+}
+
+.btn {
+    background-color: #3D3D3D;
+    color: white;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: #7CFFC2;
+}
+
+/* Body background */
+body {
+    background-color: #DEDEDE;
+}
+
+/* Welcome text on Home page */
+#welcome-text {
+    color: #FF2D4A;
+    margin-top: 20px;
+}
+
+#welcome-text h1 {
+    text-align: center;
+}
+
+#welcome-text h2 {
+    text-align: center;
+}
+
+/* Large Profile on About Me page */
+.large-profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+/* About page paragraph text */
+.about-text {
+    text-align: center;
+    color: #FF2D4A;
+    margin-top: 40px;
+    font-size: large;
+    font-weight: 500;
+}
+
+/* Contact Me header */
+.contact-header {
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 850px;
+    color: #FF2D4A;
+    background-color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #3D3D3D;
+    padding: 20px 30px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* MOBILE VIEW */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    nav.navbar.navbar-expand-lg {
+        background-color: orange;
+    }
+
+    #hero-banner {
+        background-image: url(../images/banner.jpg);
+        height: 300px;
+        padding: 60px 100px;
+        background-position: center;
+    }
+
+    .btn {
+        width: 100%;
+        margin: 180px 0;
+    }
+
+    .large-profile {
+        width: 212px;
+        height: 192px;
+    }
+
+    /* My Portfolio page pdf resume */
+    #pdf-resume p{
+        text-align: center;
+        margin-top: -70px;
+        margin-left: 130px;
+        color: #FF2D4A;
+        font-weight: 600;
+        font-size: medium;
+    }
+
+    #pdf-resume .pdfLogo {
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        padding-bottom: 80px;
+    }
+
+    .footer-content {
+        width: 32%;
+        display: inline-block;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+    }
+}
+
+/* DESKTOP VIEW */
+
+/* Extra large devices (large laptops and desktops, 1000px and up) */
+@media only screen and (min-width: 601px) {
+    nav.navbar.navbar-expand-lg {
+        background-color: #3D3D3D;
+    }
+
+    /* Home page banner */
+    #hero-banner {
+        background-image: url(../images/banner.jpg);
+        height: 400px;
+        padding: 60px 100px;
+    }
+
+    /* Button on Home page */
+    .btn {
+        background-color: #3D3D3D;
+        color: white;
+        font-weight: bold;
+        width: 7%;
+        margin-top: 250px;
+        margin-left: 1620px;
+}
+
+    /* About page large image */
+    .large-profile {
+        width: 424px;
+        height: 384px;
+    }
+
+    /* My Portfolio page pdf resume */
+    #pdf-resume p{
+        text-align: center;
+        margin-top: -70px;
+        color: #FF2D4A;
+        font-weight: 600;
+        font-size: large;
+        display:inline-block;
+    }
+
+    #pdf-resume .pdfLogo {
+        margin-top: 50px;
+        margin-bottom: 40px;
+        margin-left: 610px;
+        padding-bottom: 40px;
+    }
+
+    /* Contact form */
+    .mb-3 {
+        margin-left: 600px;
+        margin-right: 600px;
+    }
+
+    /* Footer */
+    .footer-content {
+        width: 33%;
+        display: inline-block;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+    }
+}
