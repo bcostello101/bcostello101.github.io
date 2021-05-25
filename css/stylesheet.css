@@ -14,6 +14,8 @@
     color: #7CFFC2;
 }
 
+/* Button on Home page */
+
 .btn {
     background-color: #3D3D3D;
     color: white;
@@ -21,6 +23,20 @@
 }
 
 .btn:hover {
+    color: #7CFFC2;
+}
+
+/* Button on Contact Me page */
+.contact-btn {
+    background-color: #3D3D3D;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 300px;
+    border-radius: 4px;
+}
+
+.contact-btn:hover {
     color: #7CFFC2;
 }
 
@@ -37,10 +53,12 @@ body {
 
 #welcome-text h1 {
     text-align: center;
+    background-color: #7CFFC2;
 }
 
 #welcome-text h2 {
     text-align: center;
+    background-color: #7CFFC2;
 }
 
 /* Large Profile on About Me page */
@@ -51,13 +69,56 @@ body {
     margin-top: 20px;
 }
 
+/* About page intro heading */
+.intro-heading {
+    text-align: center;
+    margin-top: 40px;
+    color: #FF2D4A;
+    background-color: #7CFFC2;
+}
+
+/* About page gaming heading */
+.gaming-heading {
+    text-align: center;
+    color: #FF2D4A;
+    background-color: #7CFFC2;
+}
+
+/* About page digital art heading */
+.digital-art-heading {
+    text-align: center;
+    color: #FF2D4A;
+    background-color: #7CFFC2;
+}
+
 /* About page paragraph text */
 .about-text {
     text-align: center;
+    margin-bottom: 40px;
     color: #FF2D4A;
-    margin-top: 40px;
     font-size: large;
     font-weight: 500;
+    background-color: #7CFFC2;
+}
+
+/* About page gaming text */
+.gaming-text {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #FF2D4A;
+    font-size: large;
+    font-weight: 500;
+    background-color: #7CFFC2;
+}
+
+/* About page digital art text */
+.digital-art-text {
+    text-align: center;
+    margin-bottom: 100px;
+    color: #FF2D4A;
+    font-size: large;
+    font-weight: 500;
+    background-color: #7CFFC2;
 }
 
 /* Contact Me header */
@@ -67,7 +128,29 @@ body {
     margin-top: 20px;
     margin-left: 850px;
     color: #FF2D4A;
-    background-color: white;
+    background-color: #7CFFC2;
+}
+
+/* Gallery slideshow */
+/*.mySlides {display:none;}
+
+.w3-display-container {
+    margin-left: 650px;
+}*/
+
+/* Gallery carousel */
+#carouselExampleCaptions h5 {
+    color: white;
+    background-color: black;
+}
+
+#carouselExampleCaptions p {
+    color: white;
+    background-color: black;
+}
+
+#pdf-resume p {
+    background-color: #7CFFC2;
 }
 
 /* Footer */
@@ -85,7 +168,7 @@ footer {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     nav.navbar.navbar-expand-lg {
-        background-color: orange;
+        background-color: #3D3D3D;
     }
 
     #hero-banner {
@@ -105,10 +188,15 @@ footer {
         height: 192px;
     }
 
+    /* About page text */
+    .about-text {
+        margin-bottom: 40px;
+    }
+
     /* My Portfolio page pdf resume */
     #pdf-resume p{
         text-align: center;
-        margin-top: -70px;
+        margin-top: -170px;
         margin-left: 130px;
         color: #FF2D4A;
         font-weight: 600;
@@ -120,6 +208,22 @@ footer {
         margin-left: 10px;
         margin-bottom: 20px;
         padding-bottom: 80px;
+    }
+
+    /* Gallery slideshow */
+    .w3-display-container {
+        margin-left: 150px;
+    }
+
+    /* Contact Me header */
+    .contact-header {
+        margin-left: 150px;
+}
+
+    /* Contact Me page button */
+    .contact-btn {
+        margin-bottom: 80px;
+        margin-left: 180px;
     }
 
     .footer-content {
@@ -177,6 +281,12 @@ footer {
         margin-bottom: 40px;
         margin-left: 610px;
         padding-bottom: 40px;
+    }
+
+    /* Gallery carousel */
+    #carouselExampleCaptions {
+        width: 50%;
+        margin-left: 460px;
     }
 
     /* Contact form */
