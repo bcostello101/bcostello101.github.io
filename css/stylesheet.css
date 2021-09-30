@@ -8,6 +8,7 @@
 /* Navigation links */
 .navbar-light .navbar-nav .nav-link {
     color: white;
+    font-weight: bold;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -42,23 +43,24 @@
 
 /* Body background */
 body {
-    background-color: #DEDEDE;
+    background-color: white;
 }
 
 /* Welcome text on Home page */
 #welcome-text {
-    color: #FF2D4A;
+    color: black;
     margin-top: 20px;
 }
 
 #welcome-text h1 {
     text-align: center;
-    background-color: #7CFFC2;
+    font-weight: bold;
+    /*background-color: #7CFFC2;*/
 }
 
 #welcome-text h2 {
     text-align: center;
-    background-color: #7CFFC2;
+    /*background-color: #7CFFC2;*/
 }
 
 /* Large Profile on About Me page */
@@ -72,53 +74,56 @@ body {
 /* About page intro heading */
 .intro-heading {
     text-align: center;
+    font-weight: bold;
     margin-top: 40px;
-    color: #FF2D4A;
-    background-color: #7CFFC2;
+    color: black;
+    /*background-color: #7CFFC2;*/
 }
 
 /* About page gaming heading */
 .gaming-heading {
     text-align: center;
-    color: #FF2D4A;
-    background-color: #7CFFC2;
+    font-weight: bold;
+    color: black;
+    /*background-color: #7CFFC2;*/
 }
 
 /* About page digital art heading */
 .digital-art-heading {
     text-align: center;
-    color: #FF2D4A;
-    background-color: #7CFFC2;
+    font-weight: bold;
+    color: black;
+    /*background-color: #7CFFC2;*/
 }
 
 /* About page paragraph text */
 .about-text {
     text-align: center;
     margin-bottom: 40px;
-    color: #FF2D4A;
+    color: black;
     font-size: large;
     font-weight: 500;
-    background-color: #7CFFC2;
+    /*background-color: #7CFFC2;*/
 }
 
 /* About page gaming text */
 .gaming-text {
     text-align: center;
     margin-bottom: 40px;
-    color: #FF2D4A;
+    color: black;
     font-size: large;
     font-weight: 500;
-    background-color: #7CFFC2;
+    /*background-color: #7CFFC2;*/
 }
 
 /* About page digital art text */
 .digital-art-text {
     text-align: center;
     margin-bottom: 100px;
-    color: #FF2D4A;
+    color: black;
     font-size: large;
     font-weight: 500;
-    background-color: #7CFFC2;
+    /*background-color: #7CFFC2;*/
 }
 
 /* Contact Me header */
@@ -150,7 +155,7 @@ body {
 }
 
 #pdf-resume p {
-    background-color: #7CFFC2;
+    /*background-color: #7CFFC2;*/
 }
 
 /* Footer */
@@ -198,7 +203,7 @@ footer {
         text-align: center;
         margin-top: -170px;
         margin-left: 130px;
-        color: #FF2D4A;
+        color: black;
         font-weight: 600;
         font-size: medium;
     }
@@ -270,7 +275,7 @@ footer {
     #pdf-resume p{
         text-align: center;
         margin-top: -70px;
-        color: #FF2D4A;
+        color: black;
         font-weight: 600;
         font-size: large;
         display:inline-block;
